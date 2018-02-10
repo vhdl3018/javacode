@@ -7,6 +7,7 @@ import cn.tzs.util.Constant;
 import cn.tzs.util.GameUtil;
 import cn.tzs.util.MyFrame;
 
+@SuppressWarnings("serial")
 public class SolarFrame extends MyFrame{
 	Image bg = GameUtil.getImage("images/bg.jpg");
 	

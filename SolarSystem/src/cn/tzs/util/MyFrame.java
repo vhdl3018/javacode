@@ -1,11 +1,11 @@
 package cn.tzs.util;
 
 import java.awt.Frame;
-import java.awt.Graphics;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 
+@SuppressWarnings("serial")
 public class MyFrame extends Frame{
 
 	/**
