@@ -1,0 +1,8 @@
+package cn.tzs.test;
+
+import java.awt.Frame;
+
+public class MyFrame extends Frame{
+
+	
+}

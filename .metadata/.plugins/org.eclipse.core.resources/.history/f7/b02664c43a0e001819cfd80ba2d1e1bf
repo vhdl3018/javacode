@@ -1,0 +1,7 @@
+package cn.tzs.solar;
+
+import cn.tzs.util.MyFrame;
+
+public class SolarFrame extends MyFrame{
+
+}

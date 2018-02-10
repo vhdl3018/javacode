@@ -1,0 +1,47 @@
+package cn.tzs.test;
+
+import java.awt.Frame;
+import java.awt.Graphics;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+/**
+ * 游戏窗口类
+ * @author qsqxj
+ *
+ */
+public class GameFrame extends Frame{  //GUI编程：AWT，Swing等
+	
+
+	
+	public void launchFrame(){
+		//设置并显示窗口
+		this.setSize(500,500);
+		this.setTitle("飞机游戏");
+		this.setLocation(400, 400);
+		this.setVisible(true);
+		
+		/**
+		 * 关闭窗口
+		 */
+		addWindowListener(new WindowAdapter(){
+			public void windowClosing(WindowEvent e){
+				System.exit(                                                                                                                                                                       0);
+			}
+		});
+	}
+	
+	public void paint(Graphics g){
+		g.drawLine(100, 100, 200, 200);
+		g.drawRect(100, 100, 200, 200);
+		g.drawOval(100, 100, 200, 200);
+		g.drawString("我是杨哥", 200, 200);
+		GameUtil.getImage("images/sun.jpg");
+	}
+	
+	public static void main(String[] args){
+		GameFrame gfFrame=new GameFrame();
+		gfFrame.launchFrame();
+	}
+
+}

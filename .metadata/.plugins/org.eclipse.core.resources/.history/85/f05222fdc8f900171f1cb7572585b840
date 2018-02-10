@@ -1,0 +1,23 @@
+package cn.tzs.exception;
+
+import java.io.FileReader;
+import java.net.Socket;
+
+/**
+ * 功能：测试异常类的
+ * @author qsqxj
+ *
+ */
+public class TestException1 {
+	public static void main(String[] args){
+		//检查异常1.打开文件   Unhandled exception type FileNotFoundException
+		//FileReader fr = new FileReader("d:\\aa.txt");
+		//2.连接一个ip地址，端口为：4567  
+		//Unhandled exception type IOException
+		//Unhandled exception type UnknownHostException
+		//Socket s =new Socket("192.168.11.1", 99);
+		
+		//运行异常
+		int a = 4/0;
+	}
+}

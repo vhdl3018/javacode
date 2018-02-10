@@ -1,0 +1,21 @@
+package cn.tzs.solar;
+
+public class Planet extends Star{
+	
+	
+	
+	
+	
+	
+	
+	public Planet(){
+		
+	}
+
+	public Planet(String imgPath, double x, double y) {
+		super(imgPath, x, y);
+		// TODO Auto-generated constructor stub
+	}
+	//除了图片，坐标，行星沿着某个椭圆运行：长轴、短轴、速度，中心
+
+}

@@ -1,0 +1,12 @@
+package cn.tzs.exception;
+/**
+ * 功能：测试异常类的
+ * @author qsqxj
+ *
+ */
+public class TestException1 {
+	public static void main(String[] args){
+		//检查异常1.打开文件
+		FileReader fr = new FileReader("d:\\aa.txt");
+	}
+}

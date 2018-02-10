@@ -1,0 +1,8 @@
+colorDefault=51,51,51
+colorKey=0,0,153
+colorKeyword=0,0,255
+colorNull=0,0,255
+colorNumber=0,0,255
+colorString=204,0,0
+colorValue=0,0,153
+eclipse.preferences.version=1

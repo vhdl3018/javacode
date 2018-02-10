@@ -1,0 +1,9 @@
+package cn.tzs.solar;
+
+import java.awt.Image;
+
+public class Star {
+	Image img;
+	
+	double x,y;
+}

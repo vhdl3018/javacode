@@ -1,0 +1,12 @@
+package cn.tzs.test;
+
+import java.awt.Frame;
+
+/**
+ * 测试物体的运动
+ * @author qsqxj
+ *
+ */
+public class GameFrame02 extends Frame{
+
+}

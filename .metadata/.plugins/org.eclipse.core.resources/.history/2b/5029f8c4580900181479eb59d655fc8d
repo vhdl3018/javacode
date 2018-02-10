@@ -1,0 +1,13 @@
+package cn.tzs.test;
+
+import java.awt.Frame;
+
+/**
+ * 游戏窗口类
+ * @author qsqxj
+ *
+ */
+public class GameFrame extends Frame{  //GUI编程：AWT，Swing等
+	
+
+}

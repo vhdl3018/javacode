@@ -1,0 +1,10 @@
+package cn.tzs.test;
+/**
+ * 游戏窗口类
+ * @author qsqxj
+ *
+ */
+public class GameFrame extends Frame{  //GUI编程：AWT，Swing等
+	
+
+}
